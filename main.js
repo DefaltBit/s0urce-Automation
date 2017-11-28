@@ -4,7 +4,7 @@ let config, vars, app, loops, gui;
 // eslint-disable-next-line prefer-const
 config = {
 	// the message you send to others when you hack them
-	message: "papa bless, it's everyday bro /r/javascript",
+	message: "U SUCK N1GG0R",
 	autoTarget: true,
 	autoAttack: true,
 	// the base64 database url
@@ -12,15 +12,15 @@ config = {
 	// all things timing related
 	freq: {
 		// how often to guess
-		word: 1500,
+		word: 1,
 		// how often to attempt to upgrade mining tools
-		mine: 3000,
+		mine: 3,
 		// how often to attempt to upgrade firewalls
-		upgrade: 4500,
+		upgrade: 4,
 		// how long to wait before attempting to rehack, not enough money for hack
-		broke: 6000,
+		broke: 6,
 		// how long to wait before restarting the hacking loop
-		hack: 3500
+		hack: 3
 	},
 	// which player in the index of the list, 0 is the first player (the bot target a player with index between playerToAttack and playerToAttack + 3 (random).
 	playerToAttack: 0,
