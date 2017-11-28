@@ -12,15 +12,15 @@ config = {
 	// all things timing related
 	freq: {
 		// how often to guess
-		word: 1,
+		word: 1500,
 		// how often to attempt to upgrade mining tools
-		mine: 3,
+		mine: 30,
 		// how often to attempt to upgrade firewalls
-		upgrade: 4,
+		upgrade: 40,
 		// how long to wait before attempting to rehack, not enough money for hack
-		broke: 6,
+		broke: 60,
 		// how long to wait before restarting the hacking loop
-		hack: 3
+		hack: 30
 	},
 	// which player in the index of the list, 0 is the first player (the bot target a player with index between playerToAttack and playerToAttack + 3 (random).
 	playerToAttack: 0,
